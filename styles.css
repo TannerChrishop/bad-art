@@ -4,11 +4,12 @@
 }
 
 body {
+    
     background-image: url(https://i.imgur.com/MFdyfxu.jpg);
     background-size:250px;
     background-repeat: no-repeat;
-    background-position:absolute;
-    background-position:top -15px left 420px;
+    background-position-x: 50%;
+    background-position-y:-3%;
 }
 
 h1 {
@@ -20,14 +21,14 @@ h1 {
 .flex-container {
     display:flex;
     border:.5px solid #444;
-    width:73.5%;
+    width:80%;
     margin:auto;
 }
 
 .pixel {
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=59314);
-    width:10px;
-    height:10px;
+    width: 1.5%;
+    height: 10px;
     border: .1px solid #eee;
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=53662), default;
 }
